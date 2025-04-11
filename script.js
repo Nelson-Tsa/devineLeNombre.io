@@ -120,3 +120,12 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById("rangeDonner").value = "0";
     Jeux();
 });
+
+module.exports = {
+    Joueur1,
+    valeurInput,
+    boutonValider,
+    recommencer,
+    compare,
+    Jeux
+};
